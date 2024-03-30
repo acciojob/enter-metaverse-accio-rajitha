@@ -3,6 +3,6 @@ var para = document.getElementById("status");
 var enterbutton = document.getElementById("enterBtn");
 
 function textstatus(){
-	para.textContent = "Entered Metaverse"
+	para.innerHTML = '<h1>Entered Metaverse</h1>';
 }
 enterbutton.addEventListener('click', textstatus);
